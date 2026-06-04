@@ -18,8 +18,17 @@ public class ModItems {
                     new Item.Properties()));
 
     public static final RegistryObject<SpawnEggItem> WHITE_MOUSE_SPAWN_EGG = ITEMS.register("white_mouse_spawn_egg",
-            () -> new ForgeSpawnEggItem(ModEntities.TEAL_DRAGON, 0xD3D3D3, 0xDB91E3,
+            () -> new ForgeSpawnEggItem(ModEntities.WHITE_MOUSE, 0xD3D3D3, 0xDB91E3,
                     new Item.Properties()));
+
+    public static final RegistryObject<SpawnEggItem> BROWN_MOUSE_SPAWN_EGG = ITEMS.register("brown_mouse_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.BROWN_MOUSE, 0xC78A29, 0xDB91E3,
+                    new Item.Properties()));
+
+    public static final RegistryObject<SpawnEggItem> LATEX_MYLO_PANDA_SPAWN_EGG = ITEMS.register("latex_mylo_panda_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.LATEX_MYLO_PANDA, 0x49CFF4, 0xEE3B99,
+                    new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

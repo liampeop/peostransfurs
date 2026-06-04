@@ -56,24 +56,27 @@ public class Peostransfurs {
 
     }
 
-    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents {
+    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+    public static class ModEvents {
+        @SubscribeEvent
+        public static void registerAttributes(EntityAttributeCreationEvent event) {
+            event.put(ModEntities.TEAL_DRAGON.get(), Teal_Dragon.createAttribures().build());
+            event.put(WHITE_MOUSE.get(), White_Mouse.createAttribures().build());
+        }
+
         @SubscribeEvent
         public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
             event.registerLayerDefinition(Teal_Dragon_Model.LAYER_LOCATION, Teal_Dragon_Model::createBodyLayer);
             event.registerLayerDefinition(White_Mouse_Model.LAYER_LOCATION, White_Mouse_Model::createBodyLayer);
         }
+    }
 
+    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    public static class ClientModEvents {
         @SubscribeEvent
         public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
             registerHumanoid(event, TEAL_DRAGON.get(), Teal_Dragon_Renderer::new);
             registerHumanoid(event, WHITE_MOUSE.get(), White_Mouse_Renderer::new);
-        }
-
-        @SubscribeEvent
-        public static void registerAttributes(EntityAttributeCreationEvent event) {
-            event.put(ModEntities.TEAL_DRAGON.get(), Teal_Dragon.createAttribures().build());
-            event.put(WHITE_MOUSE.get(), White_Mouse.createAttribures().build());
         }
     }
 }

@@ -1,0 +1,14 @@
+{
+  "entity.peostransfurs.teal_dragon": "Teal Dragon",
+  "entity.peostransfurs.white_mouse": "White Mouse",
+  "entity.peostransfurs.brown_mouse": "Brown Mouse",
+  "entity.peostransfurs.latex_mylo_panda": "Latex Mylo Panda",
+
+  "item.peostransfurs.teal_dragon_spawn_egg": "Teal Dragon Spawn Egg",
+  "item.peostransfurs.white_mouse_spawn_egg": "White Mouse Spawn Egg",
+  "item.peostransfurs.brown_mouse_spawn_egg": "Brown Mouse Spawn Egg",
+  "item.peostransfurs.latex_mylo_panda_spawn_egg": "Latex Mylo Panda Spawn Egg",
+
+  "ability.peostransfurs.toggle_size": "Shrink N Grow",
+  "creativetab.peostransfurs.peops_transfurs_tab": "Peops Custom Transfurs"
+}

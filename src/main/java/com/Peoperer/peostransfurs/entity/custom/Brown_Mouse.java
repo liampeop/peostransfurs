@@ -4,7 +4,6 @@ import net.ltxprogrammer.changed.entity.AttributePresets;
 import net.ltxprogrammer.changed.entity.ChangedEntity;
 import net.ltxprogrammer.changed.entity.TransfurCause;
 import net.ltxprogrammer.changed.entity.TransfurMode;
-import net.ltxprogrammer.changed.mixin.compatibility.Pehkui.ScaleTypeMixin;
 import net.ltxprogrammer.changed.util.Color3;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeMap;
@@ -13,8 +12,8 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.common.ForgeMod;
 
-public class White_Mouse extends ChangedEntity {
-    public White_Mouse(EntityType<? extends ChangedEntity> type, Level level) {
+public class Brown_Mouse extends ChangedEntity {
+    public Brown_Mouse(EntityType<? extends ChangedEntity> type, Level level) {
         super(type, level);
     }
 
@@ -39,6 +38,6 @@ public class White_Mouse extends ChangedEntity {
 
     @Override
     public Color3 getTransfurColor(TransfurCause cause) {
-        return Color3.WHITE;
+        return Color3.BROWN;
     }
 }

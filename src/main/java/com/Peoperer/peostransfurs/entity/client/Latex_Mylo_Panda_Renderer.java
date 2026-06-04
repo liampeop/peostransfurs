@@ -15,7 +15,7 @@ public class Latex_Mylo_Panda_Renderer extends AdvancedHumanoidRenderer<Latex_My
     private static final ResourceLocation TEXTURE = new ResourceLocation(Peostransfurs.MODID, "textures/latex_mylo_panda.png");
 
     public Latex_Mylo_Panda_Renderer(EntityRendererProvider.Context context) {
-        super(context, new Latex_Mylo_Panda_Model(context.bakeLayer(Brown_Mouse_Model.LAYER_LOCATION)), ArmorLatexMaleCatModel.MODEL_SET, 0.5f);
+        super(context, new Latex_Mylo_Panda_Model(context.bakeLayer(Latex_Mylo_Panda_Model.LAYER_LOCATION)), ArmorLatexMaleCatModel.MODEL_SET, 0.5f);
         this.addLayer(TransfurCapeLayer.normalCape(this, context.getModelSet()));
         this.addLayer(new CustomEyesLayer(this, context.getModelSet()));
         this.addLayer(GasMaskLayer.forSnouted(this, context.getModelSet()));

@@ -74,11 +74,15 @@ repositories {
         name = "Changed"
         url = "https://ltxprogrammer.github.io/maven/"
     }
+    maven {
+        url = "https://jitpack.io"
+    }
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     implementation fg.deobf("net.ltxprogrammer.changed:Changed-m${minecraft_version}-f${forge_version}:v${changed_version}")
+    implementation fg.deobf("com.github.Virtuoel:Pehkui:${pehkui_version}")
 }
 
 tasks.named('processResources', ProcessResources).configure {

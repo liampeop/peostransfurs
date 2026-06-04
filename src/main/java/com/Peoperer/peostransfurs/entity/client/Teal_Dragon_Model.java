@@ -16,6 +16,7 @@ import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.HumanoidArm;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
@@ -44,6 +45,7 @@ public class Teal_Dragon_Model extends AdvancedHumanoidModel<Teal_Dragon> {
         this.Tail = this.Torso.getChild("Tail");
         this.RightArm = root.getChild("RightArm");
         this.LeftArm = root.getChild("LeftArm");
+
         ModelPart tailPrimary = this.Tail.getChild("TailPrimary");
         ModelPart tailSecondary = tailPrimary.getChild("TailSecondary");
         ModelPart tailTertiary = tailSecondary.getChild("TailTertiary");
@@ -53,6 +55,7 @@ public class Teal_Dragon_Model extends AdvancedHumanoidModel<Teal_Dragon> {
         ModelPart rightFoot = rightLowerLeg.getChild("RightFoot");
         ModelPart leftWingRoot = this.LeftWing.getChild("leftWingRoot");
         ModelPart rightWingRoot = this.RightWing.getChild("rightWingRoot");
+
         this.animator = HumanoidAnimator.of(this).hipOffset(-1.5F).addPreset(AnimatorPresets.wingedDragonLike(this.Head, this.Torso, this.LeftArm, this.RightArm, this.Tail, List.of(tailPrimary, tailSecondary, tailTertiary), this.LeftLeg, leftLowerLeg, leftFoot, leftFoot.getChild("LeftPad"), this.RightLeg, rightLowerLeg, rightFoot, rightFoot.getChild("RightPad"), leftWingRoot, leftWingRoot.getChild("leftSecondaries"), leftWingRoot.getChild("leftSecondaries").getChild("leftTertiaries"), rightWingRoot, rightWingRoot.getChild("rightSecondaries"), rightWingRoot.getChild("rightSecondaries").getChild("rightTertiaries")));
     }
 

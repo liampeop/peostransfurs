@@ -29,3 +29,10 @@ mandatory=true
 versionRange="[0.15.4]" # Replace with the version you plan to mod
 ordering="NONE"
 side="BOTH"
+
+[[dependencies."${mod_id}"]]
+modId="pehkui"
+mandatory=true
+versionRange="[3.8.2+1.20.1-forge]" # Replace with the version you plan to mod
+ordering="AFTER"
+side="BOTH"

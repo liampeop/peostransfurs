@@ -1,0 +1,10 @@
+{
+  "entity.peostransfurs.teal_dragon": "Teal Dragon",
+  "entity.peostransfurs.white_mouse": "White Mouse",
+
+  "item.peostransfurs.teal_dragon": "Teal Dragon Spawn Egg",
+  "item.peostransfurs.white_mouse": "White Mouse Spawn Egg",
+
+  "ability.peostransfurs.toggle_size": "Shrink n grow",
+  "creativetab.peostransfurs.peops_transfurs_tab": "Peops Custom Transfurs"
+}

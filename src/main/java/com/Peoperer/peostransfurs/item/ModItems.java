@@ -1,0 +1,27 @@
+package com.Peoperer.peostransfurs.item;
+
+import com.Peoperer.peostransfurs.Peostransfurs;
+import com.Peoperer.peostransfurs.entity.ModEntities;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SpawnEggItem;
+import net.minecraftforge.common.ForgeSpawnEggItem;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.RegistryObject;
+
+public class ModItems {
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM,Peostransfurs.MODID);
+
+    public static final RegistryObject<SpawnEggItem> TEAL_DRAGON_SPAWN_EGG = ITEMS.register("teal_dragon_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.TEAL_DRAGON, 0x3737CD, 0x008888,
+                    new Item.Properties()));
+
+    public static final RegistryObject<SpawnEggItem> WHITE_MOUSE_SPAWN_EGG = ITEMS.register("white_mouse_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.TEAL_DRAGON, 0xD3D3D3, 0xDB91E3,
+                    new Item.Properties()));
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
+}

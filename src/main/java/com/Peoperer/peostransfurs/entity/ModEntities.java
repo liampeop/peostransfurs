@@ -1,10 +1,7 @@
 package com.Peoperer.peostransfurs.entity;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
-import com.Peoperer.peostransfurs.entity.custom.Brown_Mouse;
-import com.Peoperer.peostransfurs.entity.custom.Latex_Mylo_Panda;
-import com.Peoperer.peostransfurs.entity.custom.Teal_Dragon;
-import com.Peoperer.peostransfurs.entity.custom.White_Mouse;
+import com.Peoperer.peostransfurs.entity.custom.*;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,6 +23,12 @@ public class ModEntities {
 
     public static final RegistryObject<EntityType<Latex_Mylo_Panda>> LATEX_MYLO_PANDA = ENTITY_TYPES.register("latex_mylo_panda",
             () -> EntityType.Builder.of(Latex_Mylo_Panda::new, MobCategory.MONSTER).clientTrackingRange(10). sized(0.7F, 1.93F).build("latex_mylo_panda"));
+
+    public static final RegistryObject<EntityType<Latex_Drone_Wolf>> LATEX_DRONE_WOLF = ENTITY_TYPES.register("latex_drone_wolf",
+            () -> EntityType.Builder.of(Latex_Drone_Wolf::new, MobCategory.MONSTER).clientTrackingRange(10). sized(0.7F, 1.93F).build("latex_drone_wolf"));
+
+    public static final RegistryObject<EntityType<Red_Latex_Drone_Wolf>> RED_LATEX_DRONE_WOLF = ENTITY_TYPES.register("red_latex_drone_wolf",
+            () -> EntityType.Builder.of(Red_Latex_Drone_Wolf::new, MobCategory.MONSTER).clientTrackingRange(10). sized(0.7F, 1.93F).build("red_latex_drone_wolf"));
 
     public static void register (IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

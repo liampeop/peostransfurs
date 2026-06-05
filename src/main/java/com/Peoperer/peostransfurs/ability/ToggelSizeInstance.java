@@ -28,7 +28,7 @@ public class ToggelSizeInstance extends AbstractAbilityInstance {
             ScaleTypes.BASE.getScaleData(this.entity.getEntity()).setScale(1.0f);
             this.shrunk = false;
         } else {
-            ScaleTypes.BASE.getScaleData(this.entity.getEntity()).setScale(0.5f);
+            ScaleTypes.BASE.getScaleData(this.entity.getEntity()).setScale(0.4f);
             this.shrunk = true;
         }
     }

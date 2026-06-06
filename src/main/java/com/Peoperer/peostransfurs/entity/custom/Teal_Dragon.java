@@ -32,7 +32,7 @@ public class Teal_Dragon extends ChangedEntity {
 
     @Override
     public TransfurMode getTransfurMode() {
-        return TransfurMode.REPLICATION;
+        return TransfurMode.NONE;
     }
 
     @Override

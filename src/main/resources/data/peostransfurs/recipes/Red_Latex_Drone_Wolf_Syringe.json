@@ -1,0 +1,21 @@
+{
+  "type": "changed:infuser",
+  "ingredients": [
+    {
+      "item": "changed:latex_base"
+    },
+    {
+      "item": "changed:dark_latex_goo"
+    },
+    {
+      "item": "changed:dark_latex_crystal_fragment"
+    },
+    {
+      "item": "changed:tsc_shield"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "form": "peostransfurs:red_latex_drone_wolf"
+}

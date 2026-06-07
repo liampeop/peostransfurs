@@ -1,13 +1,11 @@
 package com.Peoperer.peostransfurs.entity.client;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
-import com.Peoperer.peostransfurs.entity.custom.Latex_Drone_Wolf;
-import com.Peoperer.peostransfurs.entity.custom.Latex_Mylo_Panda;
+import com.Peoperer.peostransfurs.entity.Latex_Drone_Wolf;
 import net.ltxprogrammer.changed.client.renderer.AdvancedHumanoidRenderer;
 import net.ltxprogrammer.changed.client.renderer.layers.CustomEyesLayer;
 import net.ltxprogrammer.changed.client.renderer.layers.GasMaskLayer;
 import net.ltxprogrammer.changed.client.renderer.layers.TransfurCapeLayer;
-import net.ltxprogrammer.changed.client.renderer.model.armor.ArmorLatexMaleCatModel;
 import net.ltxprogrammer.changed.client.renderer.model.armor.ArmorLatexMaleWolfModel;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.ResourceLocation;

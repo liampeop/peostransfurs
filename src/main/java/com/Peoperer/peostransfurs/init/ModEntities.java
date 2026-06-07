@@ -1,7 +1,7 @@
-package com.Peoperer.peostransfurs.entity;
+package com.Peoperer.peostransfurs.init;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
-import com.Peoperer.peostransfurs.entity.custom.*;
+import com.Peoperer.peostransfurs.entity.*;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -32,6 +32,9 @@ public class ModEntities {
 
     public static final RegistryObject<EntityType<Forsetti>> FORSETTI = ENTITY_TYPES.register("forsetti",
             () -> EntityType.Builder.of(Forsetti::new, MobCategory.MONSTER).clientTrackingRange(10). sized(0.7F, 1.93F).build("forsetti"));
+
+    public static final RegistryObject<EntityType<Winged_Forsetti>> WINGED_FORSETTI = ENTITY_TYPES.register("winged_forsetti",
+            () -> EntityType.Builder.of(Winged_Forsetti::new, MobCategory.MONSTER).clientTrackingRange(10). sized(0.7F, 1.93F).build("winged_forsetti"));
 
     public static void register (IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

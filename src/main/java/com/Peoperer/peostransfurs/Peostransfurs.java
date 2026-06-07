@@ -1,12 +1,12 @@
 package com.Peoperer.peostransfurs;
 
-import com.Peoperer.peostransfurs.entity.ModAbilities;
-import com.Peoperer.peostransfurs.entity.ModEntities;
-import com.Peoperer.peostransfurs.entity.ModTransfurVariants;
+import com.Peoperer.peostransfurs.entity.*;
+import com.Peoperer.peostransfurs.init.ModAbilities;
+import com.Peoperer.peostransfurs.init.ModEntities;
+import com.Peoperer.peostransfurs.init.ModTransfurVariants;
 import com.Peoperer.peostransfurs.entity.client.*;
-import com.Peoperer.peostransfurs.entity.custom.*;
-import com.Peoperer.peostransfurs.item.ModCreativeModeTabs;
-import com.Peoperer.peostransfurs.item.ModItems;
+import com.Peoperer.peostransfurs.init.ModCreativeModeTabs;
+import com.Peoperer.peostransfurs.init.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -20,7 +20,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-import static com.Peoperer.peostransfurs.entity.ModEntities.*;
+import static com.Peoperer.peostransfurs.init.ModEntities.*;
 import static net.ltxprogrammer.changed.init.ChangedEntityRenderers.registerHumanoid;
 
 @Mod(Peostransfurs.MODID)

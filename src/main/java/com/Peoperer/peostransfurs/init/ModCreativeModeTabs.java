@@ -1,4 +1,4 @@
-package com.Peoperer.peostransfurs.item;
+package com.Peoperer.peostransfurs.init;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
 import net.ltxprogrammer.changed.init.ChangedItems;
@@ -17,7 +17,7 @@ import java.util.Objects;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-import static com.Peoperer.peostransfurs.entity.ModTransfurVariants.TRANSFUR_VARIANTS;
+import static com.Peoperer.peostransfurs.init.ModTransfurVariants.TRANSFUR_VARIANTS;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Peostransfurs.MODID);

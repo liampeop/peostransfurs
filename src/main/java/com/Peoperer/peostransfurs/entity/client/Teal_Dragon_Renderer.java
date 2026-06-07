@@ -1,7 +1,7 @@
 package com.Peoperer.peostransfurs.entity.client;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
-import com.Peoperer.peostransfurs.entity.custom.Teal_Dragon;
+import com.Peoperer.peostransfurs.entity.Teal_Dragon;
 import net.ltxprogrammer.changed.client.renderer.AdvancedHumanoidRenderer;
 import net.ltxprogrammer.changed.client.renderer.layers.CustomEyesLayer;
 import net.ltxprogrammer.changed.client.renderer.layers.GasMaskLayer;

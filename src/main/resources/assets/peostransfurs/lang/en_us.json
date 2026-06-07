@@ -6,15 +6,22 @@
   "entity.peostransfurs.latex_drone_wolf": "Latex Drone Wolf",
   "entity.peostransfurs.red_latex_drone_wolf": "Red Latex Drone Wolf",
   "entity.peostransfurs.forsetti": "Forsetti",
+  "entity.peostransfurs.winged_forsetti": "Winged Forsetti",
 
   "item.peostransfurs.teal_dragon_spawn_egg": "Teal Dragon Spawn Egg",
   "item.peostransfurs.white_mouse_spawn_egg": "White Mouse Spawn Egg",
   "item.peostransfurs.brown_mouse_spawn_egg": "Brown Mouse Spawn Egg",
   "item.peostransfurs.latex_mylo_panda_spawn_egg": "Latex Mylo Panda Spawn Egg",
-  "entity.peostransfurs.latex_drone_wolf_spawn_egg": "Latex Drone Wolf Spawn Egg",
-  "entity.peostransfurs.red_latex_drone_wolf_spawn_egg": "Red Latex Drone Wolf Spawn Egg",
-  "entity.peostransfurs.forsetti_spawn_egg": "Forsetti",
+  "item.peostransfurs.latex_drone_wolf_spawn_egg": "Latex Drone Wolf Spawn Egg",
+  "item.peostransfurs.red_latex_drone_wolf_spawn_egg": "Red Latex Drone Wolf Spawn Egg",
+  "item.peostransfurs.forsetti_spawn_egg": "Forsetti Forsetti Spawn Egg",
+  "item.peostransfurs.winged_forsetti_spawn_egg": "Winged Forsetti Spawn Egg",
 
   "ability.peostransfurs.toggle_size": "Shrink N Grow",
+  "ability.peostransfurs.wing": "Grow Wings",
+
+  "ability.peostransfurs.toggle_size.desc": "An ability to change your size",
+  "ability.peostransfurs.wing.desc": "Toggle your wings and fly to the sky",
+
   "creativetab.peostransfurs.peops_transfurs_tab": "Peops Custom Transfurs"
 }

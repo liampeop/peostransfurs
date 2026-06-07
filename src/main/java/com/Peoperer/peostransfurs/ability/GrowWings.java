@@ -1,16 +1,14 @@
 package com.Peoperer.peostransfurs.ability;
 
-import net.ltxprogrammer.changed.ability.AbstractAbility;
 import net.ltxprogrammer.changed.ability.IAbstractChangedEntity;
+import net.ltxprogrammer.changed.ability.SimpleAbility;
 import net.minecraft.network.chat.Component;
 
 import java.util.Collection;
 import java.util.Collections;
 
-public class ToggelSize extends AbstractAbility<ToggelSizeInstance> {
-    public ToggelSize() {
-        super(ToggelSizeInstance::new);
-    }
+public class GrowWings extends SimpleAbility {
+
 
     @Override
     public int getChargeTime(IAbstractChangedEntity entity) {
@@ -27,4 +25,3 @@ public class ToggelSize extends AbstractAbility<ToggelSizeInstance> {
         return Collections.singleton(Component.translatable("ability.peostransfurs.toggle_size.desc"));
     }
 }
-

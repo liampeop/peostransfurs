@@ -1,22 +1,18 @@
 package com.Peoperer.peostransfurs.entity.client;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
-import com.Peoperer.peostransfurs.entity.custom.Teal_Dragon;
+import com.Peoperer.peostransfurs.entity.Teal_Dragon;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.ltxprogrammer.changed.client.renderer.animate.AnimatorPresets;
 import net.ltxprogrammer.changed.client.renderer.animate.HumanoidAnimator;
 import net.ltxprogrammer.changed.client.renderer.model.AdvancedHumanoidModel;
-import net.ltxprogrammer.changed.client.renderer.model.DarkLatexDragonModel;
-import net.ltxprogrammer.changed.entity.beast.DarkDragon;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.HumanoidArm;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 

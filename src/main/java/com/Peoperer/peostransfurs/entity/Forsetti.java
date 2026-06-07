@@ -1,4 +1,4 @@
-package com.Peoperer.peostransfurs.entity.custom;
+package com.Peoperer.peostransfurs.entity;
 
 import net.ltxprogrammer.changed.entity.AttributePresets;
 import net.ltxprogrammer.changed.entity.ChangedEntity;

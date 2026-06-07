@@ -1,8 +1,7 @@
 package com.Peoperer.peostransfurs.entity.client;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
-import com.Peoperer.peostransfurs.entity.custom.Teal_Dragon;
-import com.Peoperer.peostransfurs.entity.custom.White_Mouse;
+import com.Peoperer.peostransfurs.entity.White_Mouse;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.ltxprogrammer.changed.client.renderer.animate.AnimatorPresets;
@@ -13,9 +12,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.HumanoidArm;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 

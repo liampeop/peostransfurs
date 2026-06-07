@@ -1,4 +1,4 @@
-package com.Peoperer.peostransfurs.entity;
+package com.Peoperer.peostransfurs.init;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
 import com.Peoperer.peostransfurs.ability.ToggelSize;

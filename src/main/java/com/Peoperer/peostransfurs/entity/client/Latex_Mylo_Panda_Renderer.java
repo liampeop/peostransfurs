@@ -1,8 +1,7 @@
 package com.Peoperer.peostransfurs.entity.client;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
-import com.Peoperer.peostransfurs.entity.custom.Brown_Mouse;
-import com.Peoperer.peostransfurs.entity.custom.Latex_Mylo_Panda;
+import com.Peoperer.peostransfurs.entity.Latex_Mylo_Panda;
 import net.ltxprogrammer.changed.client.renderer.AdvancedHumanoidRenderer;
 import net.ltxprogrammer.changed.client.renderer.layers.CustomEyesLayer;
 import net.ltxprogrammer.changed.client.renderer.layers.GasMaskLayer;

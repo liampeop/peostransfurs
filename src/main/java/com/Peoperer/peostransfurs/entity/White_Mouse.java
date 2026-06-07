@@ -1,10 +1,9 @@
-package com.Peoperer.peostransfurs.entity.custom;
+package com.Peoperer.peostransfurs.entity;
 
 import net.ltxprogrammer.changed.entity.AttributePresets;
 import net.ltxprogrammer.changed.entity.ChangedEntity;
 import net.ltxprogrammer.changed.entity.TransfurCause;
 import net.ltxprogrammer.changed.entity.TransfurMode;
-import net.ltxprogrammer.changed.mixin.compatibility.Pehkui.ScaleTypeMixin;
 import net.ltxprogrammer.changed.util.Color3;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeMap;

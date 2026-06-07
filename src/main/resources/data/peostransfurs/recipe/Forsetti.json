@@ -5,16 +5,13 @@
       "item": "changed:latex_base"
     },
     {
-      "item": "changed:white_latex_goo"
+      "item": "minecraft:raw_chicken"
     },
     {
-      "item": "changed:white_latex_goo"
+      "item": "minecraft:birch_log"
     },
     {
-      "item": "changed:dark_latex_goo"
-    },
-    {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:gold_ingot"
     }
   ],
   "form": "peostransfurs:forsetti"

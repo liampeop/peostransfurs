@@ -1,8 +1,7 @@
-package com.Peoperer.peostransfurs.entity.custom;
+package com.Peoperer.peostransfurs.entity;
 
 import net.ltxprogrammer.changed.ability.IAbstractChangedEntity;
 import net.ltxprogrammer.changed.entity.*;
-import net.ltxprogrammer.changed.entity.latex.LatexType;
 import net.ltxprogrammer.changed.entity.robot.Exoskeleton;
 import net.ltxprogrammer.changed.init.ChangedAttributes;
 import net.ltxprogrammer.changed.util.Color3;
@@ -13,10 +12,10 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.common.ForgeMod;
 
-public class Red_Latex_Drone_Wolf extends ChangedEntity {
+public class Latex_Drone_Wolf extends ChangedEntity {
     private boolean hasExoLast = false;
 
-    public Red_Latex_Drone_Wolf(EntityType<? extends ChangedEntity> type, Level level) {
+    public Latex_Drone_Wolf(EntityType<? extends ChangedEntity> type, Level level) {
         super(type, level);
     }
 
@@ -72,7 +71,7 @@ public class Red_Latex_Drone_Wolf extends ChangedEntity {
 
     @Override
     public TransfurMode getTransfurMode() {
-        return TransfurMode.ABSORPTION;
+        return TransfurMode.REPLICATION;
     }
 
     @Override

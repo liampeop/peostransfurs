@@ -1,7 +1,6 @@
-package com.Peoperer.peostransfurs.item;
+package com.Peoperer.peostransfurs.init;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
-import com.Peoperer.peostransfurs.entity.ModEntities;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SpawnEggItem;
@@ -39,6 +38,10 @@ public class ModItems {
 
     public static final RegistryObject<SpawnEggItem> FORSETTI = ITEMS.register("forsetti_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.FORSETTI, 0xE3D8C3, 0x453D30,
+                    new Item.Properties()));
+
+    public static final RegistryObject<SpawnEggItem> WINGED_FORSETTI = ITEMS.register("winged_forsetti_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.WINGED_FORSETTI, 0xE3D8C3, 0x453D30,
                     new Item.Properties()));
 
 

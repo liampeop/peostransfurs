@@ -1,8 +1,8 @@
-package com.Peoperer.peostransfurs.entity;
+package com.Peoperer.peostransfurs.init;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
 import com.Peoperer.peostransfurs.Support.ChangedAddon;
-import com.Peoperer.peostransfurs.entity.custom.*;
+import com.Peoperer.peostransfurs.entity.*;
 import net.ltxprogrammer.changed.entity.variant.TransfurVariant;
 import net.ltxprogrammer.changed.init.ChangedAbilities;
 import net.ltxprogrammer.changed.init.ChangedRegistry;
@@ -28,6 +28,10 @@ public class ModTransfurVariants {
         }
 
         return builder.build();
+    });
+
+    public static final RegistryObject<TransfurVariant<Winged_Forsetti>> WINGED_FORSETTI = TRANSFUR_VARIANTS.register("winged_forsetti", () -> {
+        return TransfurVariant.Builder.of(ModEntities.WINGED_FORSETTI).glide().sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId()).build();
     });
 
     public static final RegistryObject<TransfurVariant<White_Mouse>> WHITE_MOUSE = TRANSFUR_VARIANTS.register("white_mouse",

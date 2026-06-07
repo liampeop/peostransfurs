@@ -1,8 +1,7 @@
 package com.Peoperer.peostransfurs.entity.client;
 
 import com.Peoperer.peostransfurs.Peostransfurs;
-import com.Peoperer.peostransfurs.entity.custom.Latex_Drone_Wolf;
-import com.Peoperer.peostransfurs.entity.custom.Latex_Mylo_Panda;
+import com.Peoperer.peostransfurs.entity.Latex_Drone_Wolf;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import net.ltxprogrammer.changed.client.renderer.animate.AnimatorPresets;

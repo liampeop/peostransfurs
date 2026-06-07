@@ -6,6 +6,8 @@
   "entity.peostransfurs.latex_drone_wolf": "Latex drón farkas",
   "entity.peostransfurs.red_latex_drone_wolf": "Vörös latex drón farkas",
   "entity.peostransfurs.forsetti": "Forsetti",
+  "entity.peostransfurs.winged_forsetti": "Szárnyas Forsetti",
+  "entity.peostransfurs.skeleton_deer": "Csontvázszarvas",
 
   "item.peostransfurs.teal_dragon_spawn_egg": "Kékeszöld sárkányt idéző tojás",
   "item.peostransfurs.white_mouse_spawn_egg": "Fehér egeret idéző tojás",
@@ -13,8 +15,15 @@
   "item.peostransfurs.latex_mylo_panda_spawn_egg": "Latex Mylo pandát idéző tojás",
   "item.peostransfurs.latex_drone_wolf_spawn_egg": "Latex drón farkast idéző tojás",
   "item.peostransfurs.red_latex_drone_wolf_spawn_egg": "Vörös latex drón farkast idéző tojás",
-  "item.peostransfurs.forsetti_spawn_egg": "Forsetti",
+  "item.peostransfurs.forsetti_spawn_egg": "Forsettiidéző tojás",
+  "item.peostransfurs.winged_forsetti_spawn_egg": "Szárnyas Forsettit idéző tojás",
+  "item.peostransfurs.skeleton_deer_spawn_egg": "Csontvázszarvas-idéző tojás",
 
   "ability.peostransfurs.toggle_size": "Zsugorodás és növekedés",
+  "ability.peostransfurs.wing": "Szárnyak növesztése",
+
+  "ability.peostransfurs.toggle_size.desc": "A méret megváltoztatásának képessége",
+  "ability.peostransfurs.wing.desc": "Forgasd a szárnyaidat és repülj az égbe",
+  
   "creativetab.peostransfurs.peops_transfurs_tab": "Peops Custom Transfurs"
 }

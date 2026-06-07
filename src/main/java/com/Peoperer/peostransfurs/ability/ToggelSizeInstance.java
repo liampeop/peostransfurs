@@ -24,13 +24,17 @@ public class ToggelSizeInstance extends AbstractAbilityInstance {
 
     @Override
     public void startUsing() {
+        float scale = 0.0f;
+        
         if (this.shrunk) {
-            ScaleTypes.BASE.getScaleData(this.entity.getEntity()).setScale(1.0f);
+            scale = 1.0f;
             this.shrunk = false;
         } else {
-            ScaleTypes.BASE.getScaleData(this.entity.getEntity()).setScale(0.4f);
+            scale = 0.4f;
             this.shrunk = true;
         }
+
+        ScaleTypes.BASE.getScaleData(this.entity.getEntity()).setScale(scale);
     }
 
     @Override

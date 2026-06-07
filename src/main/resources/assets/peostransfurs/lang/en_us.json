@@ -7,6 +7,7 @@
   "entity.peostransfurs.red_latex_drone_wolf": "Red Latex Drone Wolf",
   "entity.peostransfurs.forsetti": "Forsetti",
   "entity.peostransfurs.winged_forsetti": "Winged Forsetti",
+  "entity.peostransfurs.skeleton_deer": "Skeleton Deer",
 
   "item.peostransfurs.teal_dragon_spawn_egg": "Teal Dragon Spawn Egg",
   "item.peostransfurs.white_mouse_spawn_egg": "White Mouse Spawn Egg",
@@ -16,6 +17,7 @@
   "item.peostransfurs.red_latex_drone_wolf_spawn_egg": "Red Latex Drone Wolf Spawn Egg",
   "item.peostransfurs.forsetti_spawn_egg": "Forsetti Forsetti Spawn Egg",
   "item.peostransfurs.winged_forsetti_spawn_egg": "Winged Forsetti Spawn Egg",
+  "item.peostransfurs.skeleton_deer_spawn_egg": "Skeleton Deer Spawn Egg",
 
   "ability.peostransfurs.toggle_size": "Shrink N Grow",
   "ability.peostransfurs.wing": "Grow Wings",

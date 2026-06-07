@@ -44,6 +44,10 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.WINGED_FORSETTI, 0xE3D8C3, 0x453D30,
                     new Item.Properties()));
 
+    public static final RegistryObject<SpawnEggItem> SKELETON_DEER = ITEMS.register("skeleton_deer_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.WINGED_FORSETTI, 0xEFE6D5, 0xC9BBA0,
+                    new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

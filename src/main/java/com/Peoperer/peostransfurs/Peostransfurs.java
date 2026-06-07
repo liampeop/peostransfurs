@@ -62,6 +62,8 @@ public class Peostransfurs {
             event.put(LATEX_DRONE_WOLF.get(), Latex_Drone_Wolf.createAttribures().build());
             event.put(RED_LATEX_DRONE_WOLF.get(), Red_Latex_Drone_Wolf.createAttribures().build());
             event.put(FORSETTI.get(), Forsetti.createAttribures().build());
+            event.put(WINGED_FORSETTI.get(), Winged_Forsetti.createAttribures().build());
+            event.put(SKELETON_DEER.get(), Skeleton_Deer.createAttribures().build());
         }
 
         @SubscribeEvent
@@ -73,6 +75,8 @@ public class Peostransfurs {
             event.registerLayerDefinition(Latex_Drone_Wolf_Model.LAYER_LOCATION, Latex_Drone_Wolf_Model::createBodyLayer);
             event.registerLayerDefinition(Red_Latex_Drone_Wolf_Model.LAYER_LOCATION, Red_Latex_Drone_Wolf_Model::createBodyLayer);
             event.registerLayerDefinition(Forsetti_Model.LAYER_LOCATION, Forsetti_Model::createBodyLayer);
+            event.registerLayerDefinition(Winged_Forsetti_Model.LAYER_LOCATION, Winged_Forsetti_Model::createBodyLayer);
+            event.registerLayerDefinition(Skeleton_Deer_Model.LAYER_LOCATION, Skeleton_Deer_Model::createBodyLayer);
         }
     }
 
@@ -87,6 +91,8 @@ public class Peostransfurs {
             registerHumanoid(event, LATEX_DRONE_WOLF.get(), Latex_Drone_Wolf_Renderer::new);
             registerHumanoid(event, RED_LATEX_DRONE_WOLF.get(), Red_Latex_Drone_Wolf_Renderer::new);
             registerHumanoid(event, FORSETTI.get(), Forsetti_Renderer::new);
+            registerHumanoid(event, WINGED_FORSETTI.get(), Winged_Forsetti_Renderer::new);
+            registerHumanoid(event, SKELETON_DEER.get(), Skeleton_Deer_Renderer::new);
         }
     }
 }

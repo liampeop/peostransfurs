@@ -15,6 +15,9 @@ public class ModEntities {
     public static final RegistryObject<EntityType<Teal_Dragon>> TEAL_DRAGON = ENTITY_TYPES.register("teal_dragon",
             () -> EntityType.Builder.of(Teal_Dragon::new, MobCategory.MONSTER).clientTrackingRange(10). sized(0.7F, 1.93F).build("teal_dragon"));
 
+    public static final RegistryObject<EntityType<Skeleton_Deer>> SKELETON_DEER = ENTITY_TYPES.register("skeleton_deer",
+            () -> EntityType.Builder.of(Skeleton_Deer::new, MobCategory.MONSTER).clientTrackingRange(10).sized(0.7F, 1.93F).build("skeleton_deer"));
+
     public static final RegistryObject<EntityType<White_Mouse>> WHITE_MOUSE = ENTITY_TYPES.register("white_mouse",
             () -> EntityType.Builder.of(White_Mouse::new, MobCategory.MONSTER).clientTrackingRange(10). sized(0.7F, 1.93F).build("white_mouse"));
 

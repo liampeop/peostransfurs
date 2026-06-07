@@ -19,8 +19,11 @@ public class ModTransfurVariants {
     public static final RegistryObject<TransfurVariant<Teal_Dragon>> TEAL_DRAGON = TRANSFUR_VARIANTS.register("teal_dragon",
             () -> TransfurVariant.Builder.of(ModEntities.TEAL_DRAGON).glide().sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId()).build());
 
+    public static final RegistryObject<TransfurVariant<Skeleton_Deer>> SKELETON_DEER = TRANSFUR_VARIANTS.register("skeleton_deer",
+            () -> TransfurVariant.Builder.of(ModEntities.SKELETON_DEER).sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId()).build());
+
     public static final RegistryObject<TransfurVariant<Forsetti>> FORSETTI = TRANSFUR_VARIANTS.register("forsetti", () -> {
-        var builder = TransfurVariant.Builder.of(ModEntities.FORSETTI).sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId());
+        var builder = TransfurVariant.Builder.of(ModEntities.FORSETTI).addAbility(ModAbilities.WING).sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId());
 
         if (ModList.get().isLoaded("changed_addon")) {
             ChangedAddon.AddDash(builder);
@@ -31,7 +34,7 @@ public class ModTransfurVariants {
     });
 
     public static final RegistryObject<TransfurVariant<Winged_Forsetti>> WINGED_FORSETTI = TRANSFUR_VARIANTS.register("winged_forsetti", () -> {
-        return TransfurVariant.Builder.of(ModEntities.WINGED_FORSETTI).glide().sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId()).build();
+        return TransfurVariant.Builder.of(ModEntities.WINGED_FORSETTI).glide().addAbility(ModAbilities.WING).sound(ChangedSounds.TRANSFUR_BY_NOT_LATEX.getId()).build();
     });
 
     public static final RegistryObject<TransfurVariant<White_Mouse>> WHITE_MOUSE = TRANSFUR_VARIANTS.register("white_mouse",

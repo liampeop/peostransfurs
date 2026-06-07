@@ -33,8 +33,12 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.LATEX_DRONE_WOLF, 0x000000, 0x0000FF,
                     new Item.Properties()));
 
-    public static final RegistryObject<SpawnEggItem> RED_LATEX_MYLO_PANDA_SPAWN_EGG = ITEMS.register("red_latex_drone_wolf_spawn_egg",
+    public static final RegistryObject<SpawnEggItem> RED_LATEX_DRONE_WOLF_SPAWN_EGG = ITEMS.register("red_latex_drone_wolf_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.RED_LATEX_DRONE_WOLF, 0x000000, 0xFF0000,
+                    new Item.Properties()));
+
+    public static final RegistryObject<SpawnEggItem> FORSETTI = ITEMS.register("forsetti_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.FORSETTI, 0xE3D8C3, 0x453D30,
                     new Item.Properties()));
 
 

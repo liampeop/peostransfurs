@@ -30,6 +30,9 @@ public class ModEntities {
     public static final RegistryObject<EntityType<Red_Latex_Drone_Wolf>> RED_LATEX_DRONE_WOLF = ENTITY_TYPES.register("red_latex_drone_wolf",
             () -> EntityType.Builder.of(Red_Latex_Drone_Wolf::new, MobCategory.MONSTER).clientTrackingRange(10). sized(0.7F, 1.93F).build("red_latex_drone_wolf"));
 
+    public static final RegistryObject<EntityType<Forsetti>> FORSETTI = ENTITY_TYPES.register("forsetti",
+            () -> EntityType.Builder.of(Forsetti::new, MobCategory.MONSTER).clientTrackingRange(10). sized(0.7F, 1.93F).build("forsetti"));
+
     public static void register (IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
     }

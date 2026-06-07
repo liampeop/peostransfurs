@@ -1,0 +1,27 @@
+{
+  "type": "changed:infuser",
+  "ingredients": [
+    {
+      "item": "changed:latex_base"
+    },
+    {
+      "item": "changed:dark_latex_goo"
+    },
+    {
+      "item": "changed:white_latex_goo"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "minecraft:magenta_blue_dye"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "changed:dog_collar"
+    }
+  ],
+  "form": "peostransfurs:latex_mylo_panda"
+}

@@ -35,20 +35,19 @@ public class Latex_Drone_Wolf_Model extends AdvancedHumanoidModel<Latex_Drone_Wo
         this.Head = root.getChild("Head");
         this.Torso = root.getChild("Torso");
         this.Tail = this.Torso.getChild("Tail");
-        this.RightArm = root.getChild("RightArm");
+        this.RightArm = this.Torso.getChild("RightArm");
         this.LeftArm = root.getChild("LeftArm");
 
         ModelPart TailPrimary = this.Tail.getChild("TailPrimary");
         ModelPart TailSecondary = TailPrimary.getChild("TailSecondary");
         ModelPart TailTertiary = TailSecondary.getChild("TailTertiary");
-        ModelPart TailQuaternary = TailTertiary.getChild("TailQuaternary");
 
         ModelPart leftLowerLeg = LeftLeg.getChild("LeftLowerLeg");
         ModelPart leftFoot = leftLowerLeg.getChild("LeftFoot");
         ModelPart rightLowerLeg = RightLeg.getChild("RightLowerLeg");
         ModelPart rightFoot = rightLowerLeg.getChild("RightFoot");
 
-        animator = HumanoidAnimator.of(this).hipOffset(-1.5f).addPreset(AnimatorPresets.wolfLike(Head, Head.getChild("LeftEar"), Head.getChild("RightEar"), Torso, LeftArm, RightArm, Tail, List.of(TailPrimary, TailSecondary, TailTertiary, TailQuaternary), LeftLeg, leftLowerLeg, leftFoot, leftFoot.getChild("LeftPad"), RightLeg, rightLowerLeg, rightFoot, rightFoot.getChild("RightPad")));
+        animator = HumanoidAnimator.of(this).hipOffset(-1.5f).addPreset(AnimatorPresets.wolfLike(Head, Head.getChild("LeftEar"), Head.getChild("RightEar"), Torso, LeftArm, RightArm, Tail, List.of(TailPrimary, TailSecondary, TailTertiary), LeftLeg, leftLowerLeg, leftFoot, leftFoot.getChild("LeftPad"), RightLeg, rightLowerLeg, rightFoot, rightFoot.getChild("RightPad")));
     }
 
     public static LayerDefinition createBodyLayer() {

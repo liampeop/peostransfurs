@@ -61,6 +61,7 @@ public class Peostransfurs {
             event.put(LATEX_MYLO_PANDA.get(), Latex_Mylo_Panda.createAttribures().build());
             event.put(LATEX_DRONE_WOLF.get(), Latex_Drone_Wolf.createAttribures().build());
             event.put(RED_LATEX_DRONE_WOLF.get(), Red_Latex_Drone_Wolf.createAttribures().build());
+            event.put(FORSETTI.get(), Forsetti.createAttribures().build());
         }
 
         @SubscribeEvent
@@ -71,6 +72,7 @@ public class Peostransfurs {
             event.registerLayerDefinition(Latex_Mylo_Panda_Model.LAYER_LOCATION, Latex_Mylo_Panda_Model::createBodyLayer);
             event.registerLayerDefinition(Latex_Drone_Wolf_Model.LAYER_LOCATION, Latex_Drone_Wolf_Model::createBodyLayer);
             event.registerLayerDefinition(Red_Latex_Drone_Wolf_Model.LAYER_LOCATION, Red_Latex_Drone_Wolf_Model::createBodyLayer);
+            event.registerLayerDefinition(Forsetti_Model.LAYER_LOCATION, Forsetti_Model::createBodyLayer);
         }
     }
 
@@ -84,6 +86,7 @@ public class Peostransfurs {
             registerHumanoid(event, LATEX_MYLO_PANDA.get(), Latex_Mylo_Panda_Renderer::new);
             registerHumanoid(event, LATEX_DRONE_WOLF.get(), Latex_Drone_Wolf_Renderer::new);
             registerHumanoid(event, RED_LATEX_DRONE_WOLF.get(), Red_Latex_Drone_Wolf_Renderer::new);
+            registerHumanoid(event, FORSETTI.get(), Forsetti_Renderer::new);
         }
     }
 }

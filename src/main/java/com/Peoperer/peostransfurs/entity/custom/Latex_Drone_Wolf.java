@@ -71,7 +71,7 @@ public class Latex_Drone_Wolf extends ChangedEntity {
 
     @Override
     public TransfurMode getTransfurMode() {
-        return TransfurMode.ABSORPTION;
+        return TransfurMode.REPLICATION;
     }
 
     @Override

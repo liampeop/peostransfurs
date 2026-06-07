@@ -1,0 +1,20 @@
+{
+  "entity.peostransfurs.teal_dragon": "Kékeszöld sárkány",
+  "entity.peostransfurs.white_mouse": "Fehér egér",
+  "entity.peostransfurs.brown_mouse": "Barna egér",
+  "entity.peostransfurs.latex_mylo_panda": "Latex Mylo panda",
+  "entity.peostransfurs.latex_drone_wolf": "Latex drón farkas",
+  "entity.peostransfurs.red_latex_drone_wolf": "Vörös latex drón farkas",
+  "entity.peostransfurs.forsetti": "Forsetti",
+
+  "item.peostransfurs.teal_dragon_spawn_egg": "Kékeszöld sárkányt idéző tojás",
+  "item.peostransfurs.white_mouse_spawn_egg": "Fehér egeret idéző tojás",
+  "item.peostransfurs.brown_mouse_spawn_egg": "Barna egeret idéző tojás",
+  "item.peostransfurs.latex_mylo_panda_spawn_egg": "Latex Mylo pandát idéző tojás",
+  "item.peostransfurs.latex_drone_wolf_spawn_egg": "Latex drón farkast idéző tojás",
+  "item.peostransfurs.red_latex_drone_wolf_spawn_egg": "Vörös latex drón farkast idéző tojás",
+  "item.peostransfurs.forsetti_spawn_egg": "Forsetti",
+
+  "ability.peostransfurs.toggle_size": "Zsugorodás és növekedés",
+  "creativetab.peostransfurs.peops_transfurs_tab": "Peops Custom Transfurs"
+}

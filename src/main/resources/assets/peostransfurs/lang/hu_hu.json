@@ -11,9 +11,9 @@
   "item.peostransfurs.white_mouse_spawn_egg": "Fehér egeret idéző tojás",
   "item.peostransfurs.brown_mouse_spawn_egg": "Barna egeret idéző tojás",
   "item.peostransfurs.latex_mylo_panda_spawn_egg": "Latex Mylo pandát idéző tojás",
-  "entity.peostransfurs.latex_drone_wolf_spawn_egg": "Latex drón farkast idéző tojás",
-  "entity.peostransfurs.red_latex_drone_wolf_spawn_egg": "Vörös latex drón farkast idéző tojás",
-  "entity.peostransfurs.forsetti_spawn_egg": "Forsetti",
+  "item.peostransfurs.latex_drone_wolf_spawn_egg": "Latex drón farkast idéző tojás",
+  "item.peostransfurs.red_latex_drone_wolf_spawn_egg": "Vörös latex drón farkast idéző tojás",
+  "item.peostransfurs.forsetti_spawn_egg": "Forsetti",
 
   "ability.peostransfurs.toggle_size": "Zsugorodás és növekedés",
   "creativetab.peostransfurs.peops_transfurs_tab": "Peops Custom Transfurs"

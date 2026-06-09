@@ -1,12 +1,8 @@
 package com.Peoperer.peostransfurs;
 
 import com.Peoperer.peostransfurs.entity.*;
-import com.Peoperer.peostransfurs.init.ModAbilities;
-import com.Peoperer.peostransfurs.init.ModEntities;
-import com.Peoperer.peostransfurs.init.ModTransfurVariants;
+import com.Peoperer.peostransfurs.init.*;
 import com.Peoperer.peostransfurs.entity.client.*;
-import com.Peoperer.peostransfurs.init.ModCreativeModeTabs;
-import com.Peoperer.peostransfurs.init.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -35,8 +31,10 @@ public class Peostransfurs {
 
         ModCreativeModeTabs.register(modEventBus);
 
-        ModItems.ITEMS.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
+        ModLatexTypes.register(modEventBus);
         ModEntities.register(modEventBus);
         ModAbilities.register(modEventBus);
         ModTransfurVariants.register(modEventBus);
